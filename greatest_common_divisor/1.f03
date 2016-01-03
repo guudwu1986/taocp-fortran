@@ -1,3 +1,6 @@
+!! Mudole containing procedure "bcd",
+!! following V1P2, Euclid's algorithm.
+
 module module_greatest_common_divisor
   implicit none
   private
@@ -19,6 +22,7 @@ module module_greatest_common_divisor
     integer &
       m , n
 
+!! Unusual return!{{{
     if ( a .lt. 0 .or. b .lt. 0 ) then
       g = -1
       return
@@ -27,7 +31,9 @@ module module_greatest_common_divisor
       g = 0
       return
     end if
+!}}}
 
+!! Pre-process!{{{
     if ( a>b ) then
       m = a
       n = b
@@ -35,7 +41,9 @@ module module_greatest_common_divisor
       m = b
       n = a
     end if
+!}}}
 
+!! Main iteration!{{{
     do while ( n .ne. 0 )
       g = mod(m,n)
       m = n
@@ -43,7 +51,7 @@ module module_greatest_common_divisor
     end do
 
     g = m
-
+!}}}
 
     return
   end subroutine gcd
