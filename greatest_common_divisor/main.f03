@@ -1,3 +1,6 @@
+!! Testing program to test
+!! procedures of greatest common divisor.
+
 program main
   use module_greatest_common_divisor
   implicit none
