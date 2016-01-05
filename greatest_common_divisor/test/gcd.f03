@@ -1,7 +1,7 @@
 !! Testing program to test
 !! procedures of greatest common divisor.
 
-program main
+program gcd_test
   use module_greatest_common_divisor
   implicit none
 
@@ -15,4 +15,4 @@ program main
   write(*,*) g
 
   stop
-end program main
+end program gcd_test

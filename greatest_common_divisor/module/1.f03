@@ -1,5 +1,6 @@
 !! Mudole containing procedure "bcd",
-!! following V1P2, Euclid's algorithm.
+!! V1P2, Algorithm E.
+!! Euclid's algorithm.
 
 module module_greatest_common_divisor
   implicit none
