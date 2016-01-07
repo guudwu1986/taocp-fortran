@@ -24,6 +24,7 @@ module module_greatest_common_divisor
     integer &
       m , n
 
+    c = 0
 !! Unusual return!{{{
     if ( a .lt. 0 .or. b .lt. 0 ) then
       g = -1
@@ -43,8 +44,6 @@ module module_greatest_common_divisor
       m = b
       n = a
     end if
-
-    c = 0
 !}}}
 
 !! Main iteration!{{{
