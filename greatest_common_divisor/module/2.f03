@@ -1,4 +1,4 @@
-!! Mudole containing procedure "bcd",
+!! Mudole containing procedure "gcd",
 !! V1P9E4, Algorithm F.
 !! Euclid's algorithm without replacement.
 

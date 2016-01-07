@@ -1,4 +1,4 @@
-!! Mudole containing procedure "bcd",
+!! Mudole containing procedure "gcd",
 !! Euclid's algorithm with count.
 
 module module_greatest_common_divisor

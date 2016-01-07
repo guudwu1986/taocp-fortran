@@ -1,4 +1,4 @@
-!! Mudole containing procedure "bcd",
+!! Mudole containing procedure "gcd",
 !! V1P2, Algorithm E.
 !! Euclid's algorithm.
 
