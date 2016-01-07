@@ -34,6 +34,10 @@ module module_greatest_common_divisor
       g = b
       return
     end if
+    if ( b .eq. 0 ) then
+      g = a
+      return
+    end if
 !}}}
 
 !! Pre-process!{{{
