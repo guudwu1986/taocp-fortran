@@ -29,8 +29,8 @@ module module_greatest_common_divisor
       g = -1
       return
     end if
-    if ( a .eq. 0 .or. b .eq. 0 ) then
-      g = 0
+    if ( a .eq. 0 ) then
+      g = b
       return
     end if
 !}}}
